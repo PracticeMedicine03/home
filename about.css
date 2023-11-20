@@ -1,7 +1,9 @@
-.bold-center-h1 {
-    font-family: Arial, Helvetica, sans-serif;
+.bold {
     font-style: bold;
-    text-align: center;
+}
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .segoe {

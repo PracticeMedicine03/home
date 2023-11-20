@@ -1,0 +1,164 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Add a color to the active/current link */
+        .topnav a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+.button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+    .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+        .button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+    .button:hover span {
+        padding-right: 25px;
+    }
+
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+#changelog-container {
+    width: 720px;
+    margin: 0 auto;
+    padding-top: 50px;
+    color: #1a3754;
+}
+
+a {
+    color: #1c9bdd;
+    text-decoration: none;
+}
+
+.logo {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.changelog-item {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-top: 1px solid #eeeeee;
+}
+
+.date {
+    display: inline-block;
+    width: 170px;
+    font-family: Arial;
+    vertical-align: top;
+    opacity: .5;
+}
+
+.content {
+    display: inline-block;
+    width: 540px;
+}
+
+.title {
+    font-family: Arial;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.type {
+    display: inline-block;
+    color: white;
+    border-radius: 30px;
+    padding: 4px 15px 4px 15px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.addition {
+    background-color: #66ff33;
+}
+
+.announcement {
+    background-color: #ff3300;
+}
+
+.news {
+    background-color: #009900;
+}
+
+.release {
+    background-color: #00cc00;
+}
+
+.new {
+    background-color: #1c9bdd;
+}
+
+.improvement {
+    background-color: #2cb967;
+}
+
+.fix {
+    background-color: #ffb400;
+}
+
+.body {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+}

@@ -1,3 +1,3 @@
 function alertHelloWorld() {
-    alert("hi.")
+    alert("Yes.")
 }

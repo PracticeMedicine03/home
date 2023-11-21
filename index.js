@@ -3,17 +3,17 @@ function alertHelloWorld() {
 }
 
 function redirectDiscord() {
-    location.replace("https://discord.gg/WSyxgv7xf6");
+    window.location.href = "https://discord.gg/WSyxgv7xf6";
 }
 
 function redirectGitHub() {
-    location.replace("https://github.com/PracticeMedicine03");
+    window.location.href = "https://github.com/PracticeMedicine03";
 }
 
 function redirectYouTube() {
-    location.replace("https://youtube.com/@PracticeMedicine");
+    window.location.href = "https://youtube.com/@PracticeMedicine"
 }
 
 function redirectXTwitter() {
-    location.replace("https://twitter.com/practicemedalt");
+    window.location.href = "https://twitter.com/practicemedalt";
 }

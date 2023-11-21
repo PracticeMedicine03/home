@@ -3,7 +3,7 @@ function alertHelloWorld() {
 }
 
 function redirectDiscord() {
-    window.location.assign("https://discord.gg/WSyxgv7xf6");
+    window.location.replace("https://practicemedicine03.github.io/home/redirect/discord.html");
 }
 
 function redirectGitHub() {

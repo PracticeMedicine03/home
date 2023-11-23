@@ -1,19 +1,7 @@
-function downloadUrl(string) {
-    fetch(string)
-        .then(resp => resp.status === 200 ? resp.blob() : Promise.reject("INFO: Something went wrong, check the script."))
-        .then(blob => {
-            const url = window.URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.style.display  = 'none';
-            a.href = url;
-            a.download = 'pmu.zip';
-            document.body.appendChild(a);
-            window.URL.revokeObjectURL(url);
-            print("Downloading file...");
-        })
-        .catch(() => alert('oh crap'));
+function downloadlatestPress() {
+    window.location.replace("https://practicemedicine03.github.io/repo/pmu/downloads/pmu.zip");
 }
 
-function downloadbuttPress() {
-    downloadUrl("https://practicemedicine03.github.io/home/repo/pmu/downloads");
+function downloadbetaPress() {
+    window.location.replace("https://github.com/PracticeMedicine03/home/releases/download/v1.0.1106.2-pmu-beta/pmu.zip");
 }

@@ -1,5 +1,5 @@
 function downloadlatestPress() {
-    window.location.replace("https://practicemedicine03.github.io/repo/pmu/downloads/pmu.zip");
+    window.location.replace("https://practicemedicine03.github.io/home/repo/pmu/downloads/pmu.zip");
 }
 
 function downloadbetaPress() {

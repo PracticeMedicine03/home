@@ -3,17 +3,17 @@ function alertHelloWorld() {
 }
 
 function redirectDiscord() {
-    window.location.replace("https://discord.gg/WSyxgv7xf6");
+    window.open("https://discord.gg/WSyxgv7xf6");
 }
 
 function redirectGitHub() {
-    window.location.replace("https://github.com/PracticeMedicine03");
+    window.open("https://github.com/PracticeMedicine03");
 }
 
 function redirectYouTube() {
-    window.location.replace("https://youtube.com/@PracticeMedicine");
+    window.open("https://youtube.com/@PracticeMedicine");
 }
 
 function redirectXTwitter() {
-    window.location.replace("https://twitter.com/practicemedalt");
+    alert("my x/twitter acc got banned again for no reason.");
 }
